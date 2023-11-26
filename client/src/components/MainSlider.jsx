@@ -10,7 +10,7 @@ import 'swiper/css/pagination'
 import '../slider.css'
 
 //import required modules
-import { Pagination } from 'swiper'
+import { Pagination, Autoplay } from 'swiper'
 import { images } from '../img'
 
 
@@ -45,13 +45,17 @@ const MainSlider = () => {
   
   return (
     <Swiper
-    modules={[Pagination]}
+    modules={[Pagination, Autoplay]}
     loop={false}
     pagination={{
       clickable: true
     }}
-    className='mainSlider h-full bg-primary xl:bg-mainSlider xl:bg-no-repeat max-w-lg
-    lg:max-w-none rounded-[8px] overflow-hidden drop-shadow-2xl'
+    autoplay={{
+      delay: 5000,
+      disableOnInteraction: false
+    }}
+    className='mainSlider  h-full bg-primary xl:bg-mainSlider xl:bg-no-repeat max-w-lg
+    md:max-w-none rounded-[8px] overflow-hidden drop-shadow-2xl'
   
     >
       <>

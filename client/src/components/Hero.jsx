@@ -11,14 +11,14 @@ const Hero = () => {
           <CategoryNav />
          </div>
 
-         <div className='w-full max-w-lg lg:max-w-[734px] mx-auto'>
+         <div className='w-full  xl:max-w-[734px] mx-auto'>
           <MainSlider />
          </div>
 
-         <div className='flex flex-col gap-y-[1.8rem] w-full max-w-lg mx-auto
+         <div className='flex flex-col md:flex-row md:gap-x-6 xl:flex-col gap-y-[1.8rem] w-full xl:max-w-lg mx-auto
          h-[500px]'>
 
-          <div className='grad flex h-[250px] rounded-[8px] overflow-hidden relative p-6'>
+          <div className='grad flex h-[250px] rounded-[8px] overflow-hidden w-full relative p-6'>
             <div
             className='flex flex-col max-w-[144px] h-full justify-center'
             >
@@ -36,7 +36,7 @@ const Hero = () => {
             alt="" />
           </div>
 
-          <div className='grad flex h-[250px] rounded-[8px] overflow-hidden relative p-6'>
+          <div className='grad flex h-[250px] rounded-[8px] overflow-hidden relative w-full p-6'>
             <div
             className='flex flex-col max-w-[144px] h-full justify-center'
             >
