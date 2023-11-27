@@ -6,8 +6,8 @@ const CategoryNav = () => {
   const {data} = useFetch('/categories')
 
   return (
-    <aside className="hidden xl:flex bg-primary">
-      <div className="flex flex-col w-[286px] h-[500px] rounded-[8px] overflow-hidden">
+    <aside className="hidden xl:flex ">
+      <div className="flex flex-col w-[286px] h-[500px] rounded-[8px] overflow-hidden bg-primary">
         <div className="bg-accent py-4 text-primary uppercase font-semibold flex items-center
         justify-center">
           <p>

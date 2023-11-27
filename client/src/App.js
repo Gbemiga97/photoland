@@ -29,7 +29,7 @@ const router = createBrowserRouter([
 ])
 
 const App = () => {
-  return <div>
+  return <div className='overflow-hidden'>
     <RouterProvider router={router} />
     </div>;
 };

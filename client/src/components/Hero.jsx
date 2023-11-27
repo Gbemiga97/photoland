@@ -3,7 +3,7 @@ import { images } from '../img';
 
 const Hero = () => {
   return (
-    <section className='mb-[1.8rem] pt-36 lg:pt-0'>
+    <section className='mb-[1.8rem] xl:mb-[1.8rem] md:-mb-32 pt-36 lg:pt-0'>
       <div className="container mx-auto">
       <div className='flex flex-col gap-y-[1.8rem] xl:flex-row xl:gap-x-[1.8rem]'>
          

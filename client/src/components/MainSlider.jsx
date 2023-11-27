@@ -46,7 +46,7 @@ const MainSlider = () => {
   return (
     <Swiper
     modules={[Pagination, Autoplay]}
-    loop={false}
+    loop={true}
     pagination={{
       clickable: true
     }}

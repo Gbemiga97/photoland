@@ -25,7 +25,7 @@ const ProductSlider = ({data}) => {
     pagination={{
       clickable: true
     }}
-    className='productSlider mx-auto max-w-[360px] md:max-w-4xl xl:max-w-[1410px]'
+    className='productSlider mx-auto max-w-[360px] md:max-w-6xl xl:max-w-[1410px]'
     breakpoints={{
       320: {
         slidesPerView: 1,
